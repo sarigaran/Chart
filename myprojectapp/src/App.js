@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Card from './components/card/card';
+import Spline from './components/chart/chart';
+import Barchart2 from './components/chart/chart2';
+import Side from './components/sidebar/sidebar';
+import BasicGrid from './components/card/card2';
 
 function App() {
   return (
@@ -16,11 +20,19 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+           Learn React
+         
         </a>
-      
+       
+        </div>
+        <h1>React</h1>
+       
       <Card/>
-    </div>
+      <Spline/>
+      <Barchart2/>
+      <Side/>
+      <BasicGrid/>
+      
     </div>
 
   );

@@ -44,16 +44,18 @@ export default function RecipeReviewCard() {
         
         title="Shrimp and Chorizo Paella"
         subheader="September 14, 2016"
-      />
-      action={
+      
+     action= {
           <IconButton aria-label="settings">
             <MoreVertIcon />
           </IconButton>
         }
+        />
       <CardMedia
         component="img"
         height="194"
-        image="/static/images/cards/paella.jpg"
+        value="Tree image"
+        image="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
         alt="Paella dish"
       />
       <CardContent>
